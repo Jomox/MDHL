@@ -1,0 +1,85 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Comic Sans MS;
+    margin: 0 4%;
+}
+
+h1 {
+    font-size: 55px;
+}
+
+h1,
+main {
+    margin-left: 15px;
+}
+
+header {
+    background-image: url("/img/design1_image1.1.jpg");
+    background-size: cover;
+    background-position: top center;
+    height: 300px;
+    position: relative;
+}
+
+#logo {
+    position: absolute;
+    right: 150px;
+    top: 230px;
+    background-color: white;
+}
+
+h2 {
+    color: white;
+    background-color: black;
+    text-align: center;
+    padding: 6px 0;
+}
+
+nav {
+    display: inline-block;
+    height: 25%;
+    width: 20%;
+    vertical-align: top;
+    margin-top: 35px;
+}
+
+nav a {
+    margin-bottom: 46px;
+    display: block;
+}
+
+a:active {
+    text-decoration: none;
+    color: black;
+}
+
+
+/*
+a {
+    display: block;
+}
+*/
+
+div {
+    display: inline-block;
+    width: 75%;
+    vertical-align: top;
+    margin-top: 30px;
+}
+
+div article {
+    margin-bottom: 20px;
+}
+
+article p {
+    margin-left: 23px;
+}
+
+article h3 {
+    font-style: italic;
+}
