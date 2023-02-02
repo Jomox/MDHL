@@ -145,3 +145,61 @@ td {
 span {
     font-weight: bold;
 }
+
+
+/* ********** rules ********** */
+
+h3.rules {
+    font-size: 25px;
+}
+
+.rules {
+    text-align: center;
+}
+
+.sangria {
+    text-indent: 30px;
+}
+
+dl {
+    margin-top: 45px;
+    text-align: justify;
+}
+
+
+/* dl dd ol ul {
+    list-style-position: inside;
+} */
+
+dt {
+    text-align: none;
+    margin: 15px 0;
+}
+
+#ihf {
+    list-style-position: inside;
+}
+
+.ihf_li {
+    margin: 20px 0;
+    list-style: bold;
+    list-style-position: inside;
+}
+
+#ihf_ol_2 {
+    list-style-type: lower-latin;
+}
+
+
+/* #ihf li {
+    margin: 12px 0;
+} */
+
+#sangria {
+    list-style-type: none;
+}
+
+#coach {
+    list-style: circle;
+    list-style-position: inside;
+}
