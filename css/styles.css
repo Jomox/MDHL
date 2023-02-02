@@ -5,7 +5,7 @@
 }
 
 body {
-    font-family: Comic Sans MS;
+    font-family: "Comic Sans MS";
     margin: 0 4%;
 }
 
@@ -88,15 +88,11 @@ article h3 {
 
 /* *** schedule *** */
 
-
-/* .fuente {
-    font-family: Arial, Helvetica, sans-serif;
-} */
-
 h3 {
     text-align: right;
     border-top: 55px;
     font-size: 35px;
+    margin-right: 100px;
 }
 
 table {
@@ -106,15 +102,16 @@ table {
     margin-right: auto
 }
 
-caption {
-    margin: 8px 0;
+.p_schedule,
+.p_schedule-2 {
+    margin: 16px 0;
     text-align: left;
     font-style: italic;
+    margin-left: 110px;
 }
 
-.uno_dos {
+.p_schedule-2 {
     text-decoration: underline;
-    margin-bottom: 35px;
 }
 
 th {
@@ -125,6 +122,11 @@ th {
 th,
 td {
     padding: 10px 40px;
+}
+
+.date {
+    vertical-align: middle;
+    text-align: center;
 }
 
 .facility {
@@ -167,13 +169,7 @@ dl {
     text-align: justify;
 }
 
-
-/* dl dd ol ul {
-    list-style-position: inside;
-} */
-
 dt {
-    text-align: none;
     margin: 15px 0;
 }
 
@@ -190,11 +186,6 @@ dt {
 #ihf_ol_2 {
     list-style-type: lower-latin;
 }
-
-
-/* #ihf li {
-    margin: 12px 0;
-} */
 
 #sangria_2 {
     list-style-type: none;
