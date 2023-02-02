@@ -58,6 +58,11 @@ a.active {
     color: black;
 }
 
+.fechas {
+    text-align: left;
+    font-size: 25px;
+}
+
 
 /*
 a {
@@ -74,10 +79,6 @@ div {
 
 div article {
     margin-bottom: 20px;
-}
-
-article p {
-    margin-left: 23px;
 }
 
 article h3 {
@@ -195,11 +196,13 @@ dt {
     margin: 12px 0;
 } */
 
-#sangria {
+#sangria_2 {
     list-style-type: none;
+    text-indent: 30px;
 }
 
 #coach {
     list-style: circle;
     list-style-position: inside;
+    margin-left: 60px;
 }
