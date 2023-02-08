@@ -1,199 +1,276 @@
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
-
-body {
-    font-family: "Comic Sans MS";
-    margin: 0 4%;
-}
-
-h1 {
-    font-size: 55px;
-}
-
-h1,
-main {
-    margin-left: 15px;
-}
-
-header {
-    background-image: url("/img/design1_image1.1.jpg");
-    background-size: cover;
-    background-position: top center;
-    height: 300px;
-    position: relative;
-}
-
-#logo {
-    position: absolute;
-    right: 150px;
-    top: 230px;
-    background-color: white;
-}
-
-h2 {
-    color: white;
-    background-color: black;
-    text-align: center;
-    padding: 6px 0;
-}
-
-nav {
-    display: inline-block;
-    height: 25%;
-    width: 20%;
-    vertical-align: top;
-    margin-top: 45px;
-}
-
-nav a {
-    margin-bottom: 46px;
-    display: block;
-}
-
-a.active {
-    text-decoration: none;
-    color: black;
-}
-
-.fechas {
-    text-align: left;
-    font-size: 25px;
-}
-
-
-/*
+            * {
+                padding: 0;
+                margin: 0;
+                box-sizing: border-box;
+            }
+            
+            body {
+                font-family: "Comic Sans MS";
+                margin: 0 4%;
+            }
+            
+            h1 {
+                font-size: 55px;
+            }
+            
+            main {
+                display: flex;
+            }
+            
+            h1,
+            main {
+                margin-left: 15px;
+            }
+            
+            header {
+                background-image: url("/img/design1_image1.1.jpg");
+                background-size: cover;
+                background-position: top center;
+                height: 300px;
+                position: relative;
+            }
+            
+            #logo {
+                position: absolute;
+                right: 150px;
+                top: 230px;
+                background-color: white;
+            }
+            
+            h2 {
+                color: white;
+                background-color: black;
+                text-align: center;
+                padding: 6px 0;
+            }
+            
+            nav {
+                display: inline-block;
+                height: 25%;
+                width: 20%;
+                vertical-align: top;
+                margin-top: 45px;
+            }
+            
+            nav a {
+                margin-bottom: 46px;
+                display: block;
+            }
+            
+            a.active {
+                text-decoration: none;
+                color: black;
+            }
+            
+            .fechas {
+                text-align: left;
+                font-size: 25px;
+            }
+            /*
 a {
     display: block;
 }
 */
-
-div {
-    display: inline-block;
-    width: 75%;
-    vertical-align: top;
-    margin-top: 45px;
-}
-
-div article {
-    margin-bottom: 20px;
-}
-
-article h3 {
-    font-style: italic;
-}
-
-
-/* *** schedule *** */
-
-h3 {
-    text-align: right;
-    border-top: 55px;
-    font-size: 35px;
-    margin-right: 100px;
-}
-
-table {
-    margin-top: 40px;
-    margin-bottom: 50px;
-    margin-left: auto;
-    margin-right: auto
-}
-
-.p_schedule,
-.p_schedule-2 {
-    margin: 16px 0;
-    text-align: left;
-    font-style: italic;
-    margin-left: 110px;
-}
-
-.p_schedule-2 {
-    text-decoration: underline;
-}
-
-th {
-    text-align: left;
-    font-weight: bold;
-}
-
-th,
-td {
-    padding: 10px 40px;
-}
-
-.date {
-    vertical-align: middle;
-    text-align: center;
-}
-
-.facility {
-    margin-bottom: 10px;
-}
-
-.pls {
-    margin-top: 30px;
-    margin-bottom: 10px;
-}
-
-.contacto {
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
-    margin-top: 0px;
-}
-
-span {
-    font-weight: bold;
-}
-
-
-/* ********** rules ********** */
-
-h3.rules {
-    font-size: 25px;
-}
-
-.rules {
-    text-align: center;
-}
-
-.sangria {
-    text-indent: 30px;
-}
-
-dl {
-    margin-top: 45px;
-    text-align: justify;
-}
-
-dt {
-    margin: 15px 0;
-}
-
-#ihf {
-    list-style-position: inside;
-}
-
-.ihf_li {
-    margin: 20px 0;
-    list-style: bold;
-    list-style-position: inside;
-}
-
-#ihf_ol_2 {
-    list-style-type: lower-latin;
-}
-
-#sangria_2 {
-    list-style-type: none;
-    text-indent: 30px;
-}
-
-#coach {
-    list-style: circle;
-    list-style-position: inside;
-    margin-left: 60px;
-}
+            
+            .home {
+                display: inline;
+                width: 75%;
+                margin-top: 45px;
+            }
+            
+            div,
+            form {
+                display: inline-block;
+                width: 75%;
+                vertical-align: top;
+                margin-top: 45px;
+            }
+            
+            div article {
+                margin-bottom: 20px;
+            }
+            
+            article h3 {
+                font-style: italic;
+            }
+            /* *** schedule *** */
+            
+            h3 {
+                text-align: right;
+                border-top: 55px;
+                font-size: 35px;
+                margin-right: 100px;
+            }
+            
+            table {
+                margin-top: 40px;
+                margin-bottom: 50px;
+                margin-left: auto;
+                margin-right: auto
+            }
+            
+            .p_schedule,
+            .p_schedule-2 {
+                margin: 16px 0;
+                text-align: left;
+                font-style: italic;
+                margin-left: 110px;
+            }
+            
+            .p_schedule-2 {
+                text-decoration: underline;
+            }
+            
+            th {
+                text-align: left;
+                font-weight: bold;
+            }
+            
+            th,
+            td {
+                padding: 10px 40px;
+            }
+            
+            .date {
+                vertical-align: middle;
+                text-align: center;
+            }
+            
+            .facility {
+                margin-bottom: 10px;
+            }
+            
+            .pls {
+                margin-top: 30px;
+                margin-bottom: 10px;
+            }
+            
+            .contacto {
+                display: flex;
+                justify-content: space-between;
+                width: 100%;
+                margin-top: 0px;
+            }
+            
+            span {
+                font-weight: bold;
+            }
+            /* ********** rules ********** */
+            
+            h3.rules {
+                font-size: 25px;
+            }
+            
+            .rules {
+                text-align: center;
+            }
+            
+            .sangria {
+                text-indent: 30px;
+            }
+            
+            dl {
+                margin-top: 45px;
+                text-align: justify;
+            }
+            
+            dt {
+                margin: 15px 0;
+            }
+            
+            #ihf {
+                list-style-position: inside;
+            }
+            
+            .ihf_li {
+                margin: 20px 0;
+                list-style: bold;
+                list-style-position: inside;
+            }
+            
+            #ihf_ol_2 {
+                list-style-type: lower-latin;
+            }
+            
+            #sangria_2 {
+                list-style-type: none;
+                text-indent: 30px;
+            }
+            
+            #coach {
+                list-style: circle;
+                list-style-position: inside;
+                margin-left: 60px;
+            }
+            /* ****************** Form ****************** */
+            /* ****************** Form ****************** */
+            /* ****************** Form ****************** */
+            
+            form {
+                /* display: inline-block; */
+                width: 68%;
+                vertical-align: top;
+                margin-top: 35px;
+                margin-left: 5%;
+            }
+            
+            form {
+                font-family: sans-serif;
+            }
+            
+            .registro {
+                text-align: center;
+                margin-top: 5px;
+                margin-bottom: 25px;
+            }
+            
+            fieldset {
+                border: none;
+                margin: 15px 0;
+                width: 85%;
+                margin-left: auto;
+                margin-right: auto;
+                /* text-align: justify; */
+            }
+            
+            div {
+                width: 100%;
+                display: flex;
+                justify-content: space-between;
+                margin-left: auto;
+                margin-right: auto;
+                margin-top: 25px;
+            }
+            /* input[name="firstname"] {
+                    width: 100%;
+                } */
+            
+            fieldset p {
+                text-align: justify;
+            }
+            
+            legend {
+                margin-bottom: 8px;
+            }
+            
+            .school {
+                margin: 5px 0;
+            }
+            /* label {
+                    margin: 5px 0;
+                } */
+            
+            .signature {
+                width: 100%;
+            }
+            
+            .footer_label {
+                display: block;
+                margin-top: 12px;
+            }
+            
+            .data,
+            .footer {
+                border: none;
+                border-bottom-style: ridge;
+            }
